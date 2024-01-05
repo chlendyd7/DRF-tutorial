@@ -15,5 +15,6 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['id', 'username', 'snippets']
+        
 # 포스트맨으로 계정에접속
 # admin@naver.com / dorldirkwk10!
